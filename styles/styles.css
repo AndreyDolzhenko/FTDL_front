@@ -6,9 +6,45 @@
 body {
     background: var(--basicBG);
     font-size: var(--basicFS);
+    color: var(--basicColor);
 }
 
 h1 {
     font-family: Imperial;    
     font-size: 2em;
+    text-align: center;
+    margin: 1em 0;
+    color: darkgoldenrod;
+}
+
+input {
+    border-radius: 5px;
+    background: aliceblue;
+}
+
+input:focus {
+    background: floralwhite;
+    color: darkgoldenrod;
+}
+
+header>form {
+    text-align: end;
+    margin: 1em;
+}
+
+table {
+    width: 100%;
+    margin: 0 2em;
+}
+
+.workPlace tr td {
+    border: 1px solid var(--basicColor);
+}
+
+.content {
+    width: 95%;
+}
+
+.choiceOfWorkplace {
+    cursor: pointer;
 }
